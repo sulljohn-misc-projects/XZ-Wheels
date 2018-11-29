@@ -1,0 +1,72 @@
+button {
+  padding: 1em;
+  margin: 2em;
+}
+
+figure {
+  width: 400;
+  height: 400;
+  padding-top: 1em;
+}
+
+.outer1 {
+  fill: black;
+}
+
+.outer2 {
+  fill: #5D5D5D;
+}
+
+.rotatable1 {
+  fill: #5D5D5D;
+}
+
+.rotatable2 {
+  fill: black;
+}
+
+.cutting_tool {
+  fill: #323232;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: scroll;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  width: 50%;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  background-color:lightgrey;
+}
+
+/* Control the left side */
+.left {
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+#title {
+  font-size: 1.5em;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 1em;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align:left;
+}
