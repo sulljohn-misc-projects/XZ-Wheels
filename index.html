@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="css/style.css">
 
   <script src='https://d3js.org/d3.v3.min.js'></script>
+  <script src="https://cdn.babylonjs.com/babylon.max.js"></script>
 
 
 
@@ -19,17 +20,7 @@
 <body>
 
 
-<div class="split left">
-
-<div id="title">Watch the video:</div>
-
-<iframe src="https://drive.google.com/file/d/1FEJn5YMX92adnGUo_1J9pwTq7wtuexuF/preview" width="512" height="288"></iframe>
-
-<p id="description" >Practice adjusting the x and y coordinate wheels using the simulation to the right.</p>
-
-</div>
-
-<div class="split right" style="padding-top: 0px;">
+<canvas id="canvas"></canvas>
 
   <figure>
 	<svg></svg>
@@ -37,8 +28,6 @@
 
   <input type="button" id="Reset" value="Reset" onclick="reset()" style="width:60px"/>
 
-
-</div>
 
 <script  src="js/index.js"></script>
 
